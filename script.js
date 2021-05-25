@@ -10,7 +10,7 @@ function addReview(event) {
     const newerReviewLi = reviews.appendChild(newReviewLi);
     newerReviewLi.appendChild(newReviewAvatar);
     newerReviewLi.appendChild(newReviewText);
-    gritterForm.greet.value = "";
+    whatYouThink.whatYouThinkInputText.value = "";
 }
 
 whatYouThink.onsubmit = addReview;
