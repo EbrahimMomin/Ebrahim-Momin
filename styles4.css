@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.header {
+    text-align: center;
+    color: rgb(34, 30, 30);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Helvetica;
+    opacity: 0.7;
+}
+
+.about-me {
+    text-align: center;
+    color: rgb(2, 2, 2);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Helvetica;
+    opacity: 0.7;
+}
+
+.about-webpage {
+    text-align: center;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    font-family: Helvetica;
+    opacity: 0.7;
+}
+
+.copyright {
+    color: rgb(2, 2, 2);
+    opacity: 0.85;
+    text-align: center;
+    display: block;
+}
+
+.contact {
+    color: rgb(2, 2, 2);
+    opacity: 0.75;
+    text-align: center;
+    border: 1px solid rgba(54, 49, 49, 0.7);
+}
+
+#whatYouThink {
+    display: table;
+    margin: 0 auto;
+}
+
+#whatYouThinkInputText {
+    height: 1.3em;
+}
+
+#whatYouThinkInputLabel {
+    font-size: 1.2em;
+    font-family: serif;
+    color: rgb(87, 81, 81);
+}
+
+#submit {
+    border-radius: 20px;
+    background-color: rgb(1, 3, 95);
+    color: rgba(0, 0, 0);
+    width: 5em;
+    height: 2.5em;
+    font-size: 1.1em;
+    margin: 1em;
+}
+
+li {
+    list-style-type: none;
+}
+
+#reviews {
+    text-align: center;
+    text-decoration: none;
+    overflow: scroll;
+}
+
+#reviewNote {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.06em;
+    font-family: sans-serif;
+}
+
+#source-code {
+    text-align: center;
+    color: rgb(2, 2, 2);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: serif;
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1366px) {
+    .copyright {
+        font-size: 13px;
+        margin-top: 27px;
+    }
+    .about-webpage {
+        font-size: 15px;
+    }
+    .about-me {
+        font-size: 25px;
+    }
+    .header {
+        font-size: 50px;
+    }
+    .contact {
+        font-size: 20px;
+    }
+}
