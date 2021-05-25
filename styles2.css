@@ -101,6 +101,21 @@ body {
     border: 1px solid rgba(54, 49, 49, 0.7);
 }
 
+#whatYouThink {
+    display: table;
+    margin: 0 auto;
+}
+
+#whatYouThinkInputText {
+    height: 1.3em;
+}
+
+#whatYouThinkInputLabel {
+    font-size: 1.2em;
+    font-family: serif;
+    color: rgb(87, 81, 81);
+}
+
 @media only screen and (max-width: 1366px) {
     .copyright {
         font-size: 13px;
